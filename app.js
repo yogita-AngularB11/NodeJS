@@ -10,3 +10,6 @@ console.log(a+b);
 
 console.log(global);
 
+console.log(this);
+
+
