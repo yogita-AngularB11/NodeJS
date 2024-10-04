@@ -8,3 +8,5 @@ console.log(name);
 
 console.log(a+b);
 
+console.log(global);
+
