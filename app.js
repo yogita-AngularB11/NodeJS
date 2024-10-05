@@ -1,6 +1,7 @@
 //let app.js be Entry-Point in our application
 
 require("./xyz.js");
+require ("./sum.js");
 
 let name="NodeJS";
 
@@ -8,17 +9,19 @@ let a=5;
 
 let b=10;
 
-console.log(name);
+calculateSum(a,b);
 
-console.log(a+b);
+// console.log(name);
 
-console.log(global);
+// console.log(a+b);
 
-console.log(this);
+// console.log(global);
 
-console.log(globalThis);
+// console.log(this);
 
-console.log(globalThis===global);
+// console.log(globalThis);
+
+// console.log(globalThis===global);
 
 
 
