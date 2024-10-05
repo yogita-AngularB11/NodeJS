@@ -1,7 +1,7 @@
 //let app.js be Entry-Point in our application
 
 require("./xyz.js");
-require ("./sum.js");
+const calculateSum=require ("./sum.js");
 
 let name="NodeJS";
 
