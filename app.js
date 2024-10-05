@@ -1,3 +1,7 @@
+//let app.js be Entry-Point in our application
+
+require("./xyz.js");
+
 let name="NodeJS";
 
 let a=5;
